@@ -1,14 +1,16 @@
 # PHYS643 Numerical Assignment
+Capucine Barfety
+Python 3.7
 
 ## Advection Problem:
-The python script for this problem is named "advection.py". 
+The python script for this problem is "advection.py". 
 
 The equation is solved using two methods, the Forward-Time Central-Space method and the Lax-Friedrich method. Looking at the figures created by the script, the FTCS solution is clearly unstable, as opposed to the Lax-Friedrich which is stable under the Courant Condition.
 
 
 
 ## Advection-Diffusion Problem:
-The python script for this problem is named "advection_diffusion.py".
+The python script for this problem is "advection_diffusion.py".
 
 The equation is solved using the implicit method for diffusion part, and the Lax-Friedrich method for the advection. Part of the code from the previous problem is used for the Lax-Friedrich method. The code defines $\delta t$ so that the Courant condition is respected, and the result is plotted for two different diffusion coefficients: D=0.01, and D=1.
 
@@ -18,7 +20,7 @@ We can see on the plots that the lower diffusion coefficient curve increases muc
 
 
 ## 1D Hydro-Solver:
-The python script for this problem is named "HydroSolver.py".
+The python script for this problem is "HydroSolver.py".
 
 The equations for density and momentum are solved using the donor cell advection method. 
 
